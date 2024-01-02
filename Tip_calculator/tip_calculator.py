@@ -1,7 +1,7 @@
 percent_tip = 0.18;
 percent_tax  = 0.07;
 
-print("Welcome To Asanka Hotel.");
+print("Welcome To Asanka Hotel");
 print("Please Enter Your Bill Amount.");
 bill = float(input());
 print("Please Enter Number Of People")
