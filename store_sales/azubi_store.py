@@ -19,3 +19,5 @@ average_daily_revenue = total_revenue / 7;
 print("Average Price: " + str(average_price));
 print("Total Revenue: " + str(total_revenue));
 print("Average Daily Revenue: " + str(average_daily_revenue));
+
+
