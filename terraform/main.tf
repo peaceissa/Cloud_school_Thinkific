@@ -4,9 +4,16 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 3.0"
     }
-    
   }
-  provider_meta "" {
-    
-  }
+}
+
+provider "aws" {  
+    region = "us-west-2"
+}
+
+resource "aws_s3_bucket" "buckets" {
+    bucket = var.s3_bucket_names[count.index]
+    acl    = "private"
+
+    count = length(var.s3_bucket_names)
 }
