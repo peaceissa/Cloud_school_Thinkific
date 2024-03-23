@@ -1,3 +1,5 @@
 variable "s3_bucket_names" {
-  type = list("AdventureTech","NatureEscape","CodeCarnival")
+  description = "names of s3 bucket"
+  type = list(string)
+  default = ["AdventureTech", "NatureEscape","CodeCarnival"]
 }
