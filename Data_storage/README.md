@@ -25,7 +25,8 @@ The guide includes instructions for creating, attaching, formatting, and mountin
 
 ## Architecture Diagram
 
-[Include a visual diagram of the architecture showing how Amazon EBS is connected to an EC2 instance and how Amazon EFS is shared among multiple EC2 instances.]
+![architecture diagram](./images/datastorage.png)
+
 
 ## Prerequisites
 
